@@ -16,3 +16,7 @@ This is a simple chat application built with Laravel and Reverb.
 
 - Add to the ``docker-compose.yml`` file the following lines to make the application work with reverb:
   - ``- '${REVERB_SERVER_PORT:-8080}:${REVERB_SERVER_PORT:-8080}'``
+
+## Channels
+- **Promotions**: ``http://localhost:5000/new-promotion``
+- **YouAreTheWinner**: ``http://localhost:5000/you-are-the-winner/{idUser}``
